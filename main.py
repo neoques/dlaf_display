@@ -14,7 +14,7 @@ hv.extension("bokeh", "matplotlib")
 hv.output(backend="matplotlib")
 
 if __name__ == '__main__':
-    df = pd.read_csv('C:\\users\\Russell\\output.csv')
+    df = pd.read_csv('\\output.csv')
     df.columns = ["id", "parent_id", "x", "y", "z"]
 
     dsshow(df,
